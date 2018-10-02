@@ -13,4 +13,4 @@ class Posts extends Component {
   }
 }
 
-export default LoaderHOC(Posts);/*Bu şekilde loading i generic yapabiliyoruz*/
+export default LoaderHOC(Posts, 'posts');/*Bu şekilde loading i generic yapabiliyoruz*/
